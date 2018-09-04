@@ -1,5 +1,4 @@
 .wrap {
-    padding: 15px;
     width: 800px;
     margin: auto;
 }
@@ -20,7 +19,6 @@
   width: 150px;
   height: 150px;
   margin-bottom: 15px;
-  background-color: blue;
 }
 
 .contents1SnsGroup {
@@ -30,7 +28,7 @@
 }
 
 .contents1Desc {
-  flex: 1;
+  width: 550px;
   background-color: orange;
   padding: 15px;
 }
