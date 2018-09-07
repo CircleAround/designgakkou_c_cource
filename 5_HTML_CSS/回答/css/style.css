@@ -111,5 +111,19 @@
   .wrap {
     width: 100%;
     padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .profileContent {
+    flex-wrap: wrap;
+  }
+
+  .profilePersonal {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .profileDesc {
+    width: 100% ;
   }
 }
