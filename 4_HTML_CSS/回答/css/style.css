@@ -93,7 +93,7 @@
   }
 
   .contents2Box:last-child {
-    margin-right: auto;
+    margin-right: 0;
     margin-bottom: 0;
   }
 
