@@ -1,5 +1,5 @@
 .header {
-    width: 800px;
+    width: 900px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@
 }
 
 .wrap {
-    width: 800px;
+    width: 900px;
     margin: auto;
     padding: 30px;
 }
@@ -61,38 +61,48 @@
 }
 
 .profileDesc {
-  width: 530px;
+  width: 630px;
 }
 
 .worksList {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-left: -30px;
 }
 
-.worksImgBox {
+.worksBox {
   height: 200px;
-  width: 250px;
-  margin-right: 25px;
-  margin-bottom: 25px;
-  background-image: url('../img/blog_link_img.png');
-  background-position: center center;
+  width: 270px;
+  margin: 0 0 15px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.worksImgBox:nth-child(3n) {
-  margin-right: 0;
+.bgDesignWork {
+  background-image: url('https://fakeimg.pl/250x150/81F7D8');
+  background-position: center center;
 }
 
-.detailBtn {
+.bgCodingWork {
+  background-image: url('https://fakeimg.pl/250x150/F781F3');
+  background-position: center center;
+}
+
+.worksBoxText {
   padding: 15px;
   text-align: center;
   display: block;
-  width: 100px;
+  width: 160px;
   color: #FFFFFF;
   background-color: #000000;
   opacity: 0.6;
   text-decoration: none;
+}
+
+.worksBoxTextTitle {
+  font-size: 12px;
+  padding: 0 5px 5px 5px;
+  border-bottom: solid 1px #FFFFFF;
 }
