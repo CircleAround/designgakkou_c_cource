@@ -64,6 +64,14 @@
   width: 530px;
 }
 
+.moreText {
+  display: none;
+}
+
+.moreText.active {
+  display: block;
+}
+
 .worksList {
   display: flex;
   justify-content: center;
