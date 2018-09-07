@@ -126,4 +126,15 @@
   .profileDesc {
     width: 100% ;
   }
+
+  .worksImgBox {
+    height: 200px;
+    width: 100%;
+    margin: unset;
+    margin-bottom: 15px;
+  }
+
+  .worksImgBox:last-child {
+    margin-bottom: 0;
+  }
 }
